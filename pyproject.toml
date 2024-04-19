@@ -2,7 +2,10 @@
 name = "tennews"
 version = "0.1.0"
 description = "Display ten URLs for the latest tech news."
-authors = ["bswck <bartoszpiotrslawecki@gmail.com>"]
+authors = [
+    "arylka <yukinowak8@gmail.com>",
+    "bswck <bartoszpiotrslawecki@gmail.com>",
+]
 license = "MIT"
 readme = "README.md"
 
