@@ -1,11 +1,6 @@
 import os
 
-import dotenv
-
 from tennews.base import APINewsSource, News
-
-dotenv.load_dotenv()
-
 
 class NewsAPISource(APINewsSource):
     url = "https://newsapi.org/v2/everything"
@@ -30,5 +25,7 @@ class NewsAPISource(APINewsSource):
 
 
 if __name__ == "__main__":
+    import dotenv
+    dotenv.load_dotenv()
     news_api = NewsAPISource()
     print(news_api.get_news(1))
